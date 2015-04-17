@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zju.isee.zjulife"
+    android:versionCode="1"
+    android:versionName="1.0"
+    android:installLocation="auto">
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+    
+    <supports-screens android:resizeable="true"/>
+    
+    <application
+        android:allowBackup="true"
+        android:theme="@android:style/Theme.Black.NoTitleBar" 
+        android:icon="@drawable/appicon"
+        android:label="@string/app_name">
+        
+      <service
+            android:name="com.baidu.location.f"
+            android:enabled="true"
+            android:process=":remote"
+            >
+            <intent-filter>
+                <action android:name="com.baidu.location.service_v2.2" >
+                </action>
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="kNGw0XVxdWXk8o1Ad8TcuKGa" />
+        <activity
+            android:name="com.zju.isee.zjulife.MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.zju.isee.zjulife.MapActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            >
+            <intent-filter>
+                <action android:name="com.zju.isee.zjulife.MapActivity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                </intent-filter>
+        </activity>
+                
+        <activity
+            android:name="com.zju.isee.zjulife.BusQuery"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            >
+            <intent-filter>
+                <action android:name="com.zju.isee.zjulife.BusQuery"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.zju.isee.zjulife.WebNavi"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            >
+            <intent-filter>
+                <action android:name="com.zju.isee.zjulife.WebNavi"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                </intent-filter>
+        </activity>     
+        
+        <activity
+            android:name="com.zju.isee.zjulife.ClassroomQuery"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            >
+            <intent-filter>
+                <action android:name="com.zju.isee.zjulife.ClassroomQuery"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.zju.isee.zjulife.ListView1"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            >
+            <intent-filter>
+                <action android:name="com.zju.isee.zjulife.ListView1"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                </intent-filter>
+        </activity>   
+        
+        <activity
+            android:name="com.zju.isee.zjulife.SearchAll"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            >
+            <intent-filter>
+                <action android:name="com.zju.isee.zjulife.SearchAll"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                </intent-filter>
+        </activity>        
+        
+        <activity
+            android:name="com.zju.isee.zjulife.popWeb"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            >
+            <intent-filter>
+                <action android:name="com.zju.isee.zjulife.popWeb"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                </intent-filter>
+        </activity>    
+        
+        <activity
+            android:name="com.zju.isee.zjulife.netManage"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            >
+            <intent-filter>
+                <action android:name="com.zju.isee.zjulife.netManage"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                </intent-filter>
+        </activity> 
+        
+        <activity
+            android:name="com.zju.isee.zjulife.ListView2"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            >
+            <intent-filter>
+                <action android:name="com.zju.isee.zjulife.ListView2"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                </intent-filter>
+        </activity>   
+        
+        <activity
+            android:name="com.zju.isee.zjulife.ClassChoice"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            >
+            <intent-filter>
+                <action android:name="com.zju.isee.zjulife.ClassChoice"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.zju.isee.zjulife.CommonClass"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            >
+            <intent-filter>
+                <action android:name="com.zju.isee.zjulife.CommonClass"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                </intent-filter>
+        </activity>   
+        
+        <activity
+            android:name="com.zju.isee.zjulife.AfterClass"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            >
+            <intent-filter>
+                <action android:name="com.zju.isee.zjulife.AfterClass"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                </intent-filter>
+        </activity>    
+        
+        <activity
+            android:name="com.zju.isee.zjulife.AntiFake"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            >
+            <intent-filter>
+                <action android:name="com.zju.isee.zjulife.AntiFake"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.zju.isee.zjulife.Award"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            >
+            <intent-filter>
+                <action android:name="com.zju.isee.zjulife.Award"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.zju.isee.zjulife.Hospital"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            >
+            <intent-filter>
+                <action android:name="com.zju.isee.zjulife.Hospital"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                </intent-filter>
+        </activity>       
+        
+        <activity
+            android:name="com.zju.isee.zjulife.Eating"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            >
+            <intent-filter>
+                <action android:name="com.zju.isee.zjulife.Eating"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                </intent-filter>
+        </activity>   
+        
+        <activity
+            android:name="com.zju.isee.zjulife.Hotel"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            >
+            <intent-filter>
+                <action android:name="com.zju.isee.zjulife.Hotel"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                </intent-filter>
+        </activity>     
+        
+        <activity
+            android:name="com.zju.isee.zjulife.About"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            >
+            <intent-filter>
+                <action android:name="com.zju.isee.zjulife.About"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.zju.isee.zjulife.AppRecommend"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            >
+            <intent-filter>
+                <action android:name="com.zju.isee.zjulife.AppRecommend"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.zju.isee.zjulife.BusResult"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            >
+            <intent-filter>
+                <action android:name="com.zju.isee.zjulife.BusResult"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                </intent-filter>
+        </activity>
+        
+    </application>
+
+    <permission android:name="android.permission.BAIDU_LOCATION_SERVICE" >
+    </permission>
+
+    <uses-permission android:name="android.permission.BAIDU_LOCATION_SERVICE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.INTERNET" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_GPS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="false"
+        android:resizeable="true"
+        android:smallScreens="true" />
+    
+</manifest>

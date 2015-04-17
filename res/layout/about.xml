@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#1E1E1E"
+    android:orientation="vertical"
+    tools:context="com.zju.isee.zjulife.MainActivity" >
+
+    <RelativeLayout
+        android:id="@+id/rtLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:background="#85B935"
+        >
+        <TextView 
+        android:id="@+id/appNameTrans1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:text="@string/appName"
+		android:textColor="#ECF0F1"     
+		android:textSize="40sp"  
+		android:layout_centerVertical="true"
+		android:paddingLeft="5dp"
+        />
+    </RelativeLayout>
+    
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        >
+        <ImageView 
+            android:id="@+id/rotate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/rotate"
+            android:layout_centerHorizontal="true"
+            android:paddingTop="60dp"
+            />
+        <TextView 
+            android:id="@+id/zjulife"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="ZjuLife"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="#f27b04"
+            android:layout_below="@id/rotate"
+            android:layout_centerHorizontal="true"
+            android:paddingTop="10dp"
+            />
+        <TextView 
+            android:id="@+id/version"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Android Client Version1.0"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="#f27b04"
+            android:layout_below="@id/zjulife"
+            android:layout_centerHorizontal="true"
+            android:paddingTop="10dp"
+            />
+        <TextView 
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Enjoy Your ZJU Life!"
+            android:layout_below="@id/version"
+            android:layout_centerHorizontal="true"
+            android:textSize="30sp"
+            android:textStyle="italic"
+            android:textColor="#ecf0f1"
+            android:paddingTop="5dp"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/feedback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:clickable="true"
+            android:src="@drawable/feedback" />
+
+        <TextView
+            android:id="@+id/contactus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/feedback"
+            android:layout_centerHorizontal="true"
+            android:text="contact us"
+            android:textColor="#ecf0f1"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/contactus"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:text="        ZJU Life提供网络办理、电子地图、校车查询、自习选课以及衣食住行的建议查询服务，由电科1203班SQTP项目组开发制作。"
+            android:textColor="#ecf0f1"
+            android:textSize="15sp" />
+    </RelativeLayout>
+        
+</LinearLayout>

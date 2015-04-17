@@ -1,0 +1,719 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="action_fastscroll">Fast scroll</string>
+    <string name="action_addpadding">Add padding</string>
+    <string name="action_showShadow">Show shadow</string>
+    <string name="action_showHeaderAndFooter">Show Header &amp; Footer</string>
+    <string name="action_updateDataset">Update dataset</string>
+    
+    <string name="app_name">ZjuLife</string>
+    <string name="appName">ZJU life</string>
+    <string name="appTAG1">for</string>
+    <string name="appTAG2">Convenience</string>
+    <string name="appSort1">新生须知</string>
+    <string name="appSort2">交通</string>
+    <string name="appSort3">学习</string>
+    <string name="appSort4">衣食住购</string>
+    <string name="appSort5">其他</string>
+    <string name="action_settings">Settings</string>
+    
+    <string-array name="schoolLocation">
+        <item>紫金港</item>
+        <item>玉泉</item>
+        <item>西溪</item>
+        <item>之江</item>
+        <item>华家池</item>
+    </string-array>
+    
+    <string-array name="appdownload">
+        <item>http://www.izju.org/</item>
+        <item>http://m.myqsc.com/get</item>
+        <item>http://www.iqingmei.com/</item>
+        <item>http://www.appchina.com/down/tk.djcrazy.MyCC98</item>
+        <item>http://www.isee.zju.edu.cn/stack/download.php</item>
+        <item>http://elife.zju.edu.cn:8070/DownLoad/Main</item>
+        </string-array>
+        
+    <string-array name="allSorts">
+        <item>防坑须知</item>
+        <item>内网导航</item>
+        <item>网络办理</item>
+        <item>电子地图</item>
+        <item>校车查询</item>
+        <item>自习地点</item>
+        <item>选课经验</item>
+        <item>综素与第二课堂</item>
+        <item>奖助学金申报</item>
+        <item>就医事项</item>
+        <item>吃货交流</item>
+        <item>临时住所</item>
+        <item>关于</item>
+        <item>更多校内app</item>
+        </string-array>
+    
+    <string-array name="keyWords">
+        <item>\n黑心，买，卖，商家</item>
+        <item>\n内网资源，cc98，缘网，nhd</item>
+        <item>\n网络办理，闪讯，vpn，宽带</item>
+        <item>\n地图，教学楼，图书馆，哪</item>
+        <item>\n校车，去，公交</item>
+        <item>\n自习，学习，看书，教室，教学楼</item>
+        <item>\n选课，绩点，学分</item>
+        <item>\n第二课堂，学分，综素加分</item>
+        <item>\n奖学金，助学金，申报</item>
+        <item>\n医院，受伤</item>
+        <item>\n吃货，食物，好吃的</item>
+        <item>\n临时住所，宾馆，旅馆</item>
+        <item>\n关于，开发，反馈</item>
+        <item>\n校内app推荐，求是潮，cc98，青梅，信电小站，iZJU</item>
+        </string-array>
+
+    <string-array name="activity">
+        <item>com.zju.isee.zjulife.AntiFake</item>
+        <item>com.zju.isee.zjulife.ListView1</item>
+        <item>com.zju.isee.zjulife.netManage</item>
+        <item>com.zju.isee.zjulife.MapActivity</item>
+        <item>com.zju.isee.zjulife.BusQuery</item>
+        <item>com.zju.isee.zjulife.ClassroomQuery</item>
+        <item>com.zju.isee.zjulife.ListView2</item>
+        <item>com.zju.isee.zjulife.AfterClass</item>
+        <item>com.zju.isee.zjulife.Award</item>
+        <item>com.zju.isee.zjulife.Hospital</item>
+        <item>com.zju.isee.zjulife.Eating</item>
+        <item>com.zju.isee.zjulife.Hotel</item>
+        <item>com.zju.isee.zjulife.About</item>
+        <item>com.zju.isee.zjulife.AppRecommend</item>
+    </string-array>
+        
+    <string-array name="date">
+        <item>BIOINFORMATICS SERVER</item>
+        <item>半导体薄膜与纳米材料研究组</item>
+        <item>办公网</item>
+        <item>包氏奖学金</item>
+        <item>保密办公室</item>
+        <item>本科教学课程中心</item>
+        <item>本科教学评估网</item>
+        <item>本科生创新网实践基地</item>
+        <item>本科生信息系统</item>
+        <item>本科生院</item>
+        <item>本科生招生网</item>
+        <item>本科招生网</item>
+        <item>本科专业资讯网</item>
+        <item>CAD and CG国家重点实验室</item>
+        <item>CALIS培训周会议</item>
+        <item>CCNT实验室</item>
+        <item>CHINA STUDIES</item>
+        <item>材料科学与工程学系</item>
+        <item>财务处高级财务管理平台 </item>
+        <item>采购中心</item>
+        <item>超大规模集成电路设计研究所</item>
+        <item>出版社</item>
+        <item>传媒与国际文化学院 </item>
+        <item>创新软件研发中心</item>
+        <item>DATABASE LABORATORY</item>
+        <item>大学数字图书馆国际合作计划</item>
+        <item>党委组织部</item>
+        <item>党校</item>
+        <item>档案馆</item>
+        <item>地球科学系</item>
+        <item>第十二届海岸两岸继续教育论坛</item>
+        <item>第十三次党代会筹备工作</item>
+        <item>电工电子实验教学中心</item>
+        <item>电力电子应用国家工程研究中心</item>
+        <item>电气工程学院</item>
+        <item>电子离校单系统</item>
+        <item>电子商城</item>
+        <item>电子商务与信息管理专业 互联网创业实践平台</item>
+        <item>电子显微镜中心</item>
+        <item>动物科学学院 </item>
+        <item>短信应用平台</item>
+        <item>多媒体中心</item>
+        <item>发展规划处（政策研究室）</item>
+        <item>发展联络办公室 </item>
+        <item>房地产研究中心 </item>
+        <item>防灾工程研究所</item>
+        <item>非传统安全与和平发展研究中心 </item>
+        <item>非结构化数据管理系统 </item>
+        <item>分析仪器研究中心</item>
+        <item>港澳台事务办公室</item>
+        <item>高分子科学与工程学系 </item>
+        <item>高校通 </item>
+        <item>高压过程装备与安全教育部工程研究中心 </item>
+        <item>个人主页</item>
+        <item>个性化信息门户（MZJU)</item>
+        <item>工会</item>
+        <item>工学部</item>
+        <item>工业技术研究院</item>
+        <item>工业控制技术国家重点实验室</item>
+        <item>公共管理学院</item>
+        <item>公共卫生学院 </item>
+        <item>公共政策研究中心</item>
+        <item>管理工程学报</item>
+        <item>管理学院</item>
+        <item>光电显示技术研究所</item>
+        <item>光电信息工程实验中心</item>
+        <item>光电信息工程学系</item>
+        <item>光华法学院 </item>
+        <item>光华法学院图书馆 </item>
+        <item>光及电磁波研究中心 </item>
+        <item>硅材料国家重点实验室</item>
+        <item>硅材料研究组</item>
+        <item>国防生网站 </item>
+        <item>国际教育学院</item>
+        <item>国家大学科技园</item>
+        <item>国家精品课程-操作系统</item>
+        <item>国有资产管理办公室</item>
+        <item>过程系统工程实验室 </item>
+        <item>海纳百川BBS站 </item>
+        <item>海洋科学与工程学系 </item>
+        <item>汉语史研究中心</item>
+        <item>航空航天学院</item>
+        <item>红十字会</item>
+        <item>后勤管理处 </item>
+        <item>后勤集团</item>
+        <item>后勤集团短信应用平台 </item>
+        <item>后勤集团技术物资服务中心</item>
+        <item>后勤集团水电保障中心 </item>
+        <item>化工设计</item>
+        <item>化学反应工程与工艺</item>
+        <item>化学工程和生物工程学系</item>
+        <item>化学工程联合国家重点实验室</item>
+        <item>化学工程与烯烃聚合课题组</item>
+        <item>化学工程远程实验室系统</item>
+        <item>化学实验中心 </item>
+        <item>化学系</item>
+        <item>环境保护研究所</item>
+        <item>环境工程研究所 </item>
+        <item>环境生物技术实验室</item>
+        <item>环境与资源学院</item>
+        <item>INSTITUTE OF BIOINFORMATICS </item>
+        <item>INSTITUTE OF MODERN PHYSICS </item>
+        <item>INTEL多核技术大学合作网站 </item>
+        <item>IPV6试验网</item>
+        <item>IRA-DSN 2009</item>
+        <item>基本建设处</item>
+        <item>基础医学实验中心</item>
+        <item>基础医学院</item>
+        <item>机构典藏与数字出版</item>
+        <item>机关党委</item>
+        <item>机械电子控制工程研究所</item>
+        <item>机械工程学系</item>
+        <item>机械工程学系工业工程专业</item>
+        <item>机械设计研究所</item>
+        <item>计划财务处</item>
+        <item>计算机科学与技术学院 </item>
+        <item>计算机学院办公网</item>
+        <item>继续教育管理处</item>
+        <item>继续教育学院</item>
+        <item>继续教育学院工商管理培训中心</item>
+        <item>纪律检查委员会办公室</item>
+        <item>建筑工程学院</item>
+        <item>交通工程研究所</item>
+        <item>教材服务中心</item>
+        <item>教务处考试中心</item>
+        <item>教育部高校辅导员培训和研修基地</item>
+        <item>教育基金会</item>
+        <item>教育学院</item>
+        <item>教职工数据服务系统</item>
+        <item>节能减排协会</item>
+        <item>金融研究院</item>
+        <item>精品课程</item>
+        <item>经济学院</item>
+        <item>就业指导与服务中心 </item>
+        <item>聚变理论与模拟中心</item>
+        <item>开放课程</item>
+        <item>科教发展战略研究中心</item>
+        <item>科学技术研究院</item>
+        <item>科学技术研究院 </item>
+        <item>科学技术与社会研究中心</item>
+        <item>可持续能源研究院</item>
+        <item>控股公司财务信息化管理系统 </item>
+        <item>控制科学与工程学系 </item>
+        <item>竺可桢学院</item>
+        <item>LIPID MASS SPECTRUM ANALYSIS DATABASE(LMSAD)</item>
+        <item>劳动保障与社会政策研究中心</item>
+        <item>离休党工委 </item>
+        <item>理学部</item>
+        <item>力学实验教学中心</item>
+        <item>MBA教育中心</item>
+        <item>纳米光子学研究团队 </item>
+        <item>能源工程学系 </item>
+        <item>能源与动力实验教学中心 </item>
+        <item>宁波理工学院</item>
+        <item>农业部动物病毒学重点实验室 </item>
+        <item>农业科技园管委会（农业试验站）</item>
+        <item>农业生命环境学部 </item>
+        <item>农业现代化与农村发展研究中心 </item>
+        <item>农业与生物技术学院 </item>
+        <item>PROGRAMMING ABILITY TEST </item>
+        <item>普适计算机实验室</item>
+        <item>嵌入式系统研究开发中心 </item>
+        <item>青年教授联谊会</item>
+        <item>求是潮</item>
+        <item>求是高等研究院 </item>
+        <item>求是物业管理有限公司 </item>
+        <item>求是新闻网</item>
+        <item>求是学院</item>
+        <item>求是学院蓝田学园</item>
+        <item>全球创业研究中心</item>
+        <item>热能工程研究所</item>
+        <item>人才引进网站</item>
+        <item>人力资源管理系统</item>
+        <item>人事处 </item>
+        <item>人文社科学 </item>
+        <item>人文社科学术信息资源平台 </item>
+        <item>人文学部</item>
+        <item>人文学院</item>
+        <item>软件学院</item>
+        <item>软弱土与环境土工教育部重点实验室</item>
+        <item>软弱土与环境土木教育部重点实验室网站 </item>
+        <item>商学研究院 </item>
+        <item>射频与纳米系统研究中心</item>
+        <item>社会科学学部 </item>
+        <item>社会科学研究基础平台</item>
+        <item>审计处 </item>
+        <item>生命科学学院 </item>
+        <item>生物实验教学中心</item>
+        <item>生物系统工程与食品科学学院</item>
+        <item>生物医学工程与仪器科学学院 </item>
+        <item>生物医学工程专业咨询网 </item>
+        <item>实验动物中心 </item>
+        <item>实验室与设备管理处</item>
+        <item>数据中心</item>
+        <item>数学系</item>
+        <item>数字媒体处理与企业智能计算实验室</item>
+        <item>数字媒体计算与设计实验室</item>
+        <item>数字媒体与网络技术系</item>
+        <item>水环境研究院 </item>
+        <item>思想政治理论教学科研部 </item>
+        <item>素质拓展网</item>
+        <item>THE 11TH INTERNATIONAL BARLEY GENETICS SYMPOSIUM (IBGS)</item>
+        <item>THEORETICAL CONDENSED MATTER PHYSICS </item>
+        <item>同等学力教育信息管理系统</item>
+        <item>统一身份论证</item>
+        <item>统战部 </item>
+        <item>图片信息资源库</item>
+        <item>图书馆</item>
+        <item>图书馆科技查新中心 </item>
+        <item>图书馆学科信息交流平台</item>
+        <item>图书与信息中心</item>
+        <item>土木水利工程实验中心 </item>
+        <item>团委</item>
+        <item>外国语言文化及国际交流学院</item>
+        <item>外事处 </item>
+        <item>网络与媒体实验室</item>
+        <item>微小卫星研究中心</item>
+        <item>文化用品中心（求是印象）</item>
+        <item>文秘专栏 </item>
+        <item>物理实验教学中心</item>
+        <item>物理学系 </item>
+        <item>现代光学仪器国家重点实验室</item>
+        <item>现代教务管理系统</item>
+        <item>现代教育技术中心</item>
+        <item>现代教育技术中心</item>
+        <item>现代农村信息化关键技术研究与示范 </item>
+        <item>校内个人通讯系统</item>
+        <item>校医院 </item>
+        <item>校园兼职网 </item>
+        <item>校园精品文化数字化建设工程 </item>
+        <item>校园卡综合服务网 </item>
+        <item>协同办公系统</item>
+        <item>新编大学英语网络课件 </item>
+        <item>新生服务网 </item>
+        <item>新政治经济学评论 </item>
+        <item>心理健康教育与咨询中心</item>
+        <item>心理与行为科学系</item>
+        <item>信息报送系统 </item>
+        <item>信息化服务 </item>
+        <item>信息学部</item>
+        <item>信息与电子工程系 本科教学网站 </item>
+        <item>信息与电子工程学系</item>
+        <item>信息与通信工程研究所</item>
+        <item>信息中心</item>
+        <item>学生工作部 </item>
+        <item>学生工作管理系统</item>
+        <item>学生公寓自助服务区</item>
+        <item>学生一站式服务中心</item>
+        <item>学术期刊导航</item>
+        <item>学位论文管理系统</item>
+        <item>学习网ISTUDY百科</item>
+        <item>学习网ISTUDY论坛 </item>
+        <item>亚太休闲教育研究中心</item>
+        <item>研究生工作部</item>
+        <item>研究生教育管理信息系统</item>
+        <item>研究生课程中心</item>
+        <item>研究生院</item>
+        <item>研究生指导教师管理系统</item>
+        <item>药物信息学研究所</item>
+        <item>药学院</item>
+        <item>医学部 </item>
+        <item>医学部百年庆典网</item>
+        <item>医学部继续教育中心</item>
+        <item>医学部课程中心</item>
+        <item>医学信息中心</item>
+        <item>医学院病理学与病理生理学系</item>
+        <item>医学院附属义乌医院</item>
+        <item>医学院临床技能训练系统</item>
+        <item>遗传学研究所</item>
+        <item>饮食服务中心</item>
+        <item>饮用水安全保障与可持续发展国际会议</item>
+        <item>语言与认知研究中心</item>
+        <item>圆正控股集团有限公司</item>
+        <item>哲学网</item>
+        <item>浙大勤创</item>
+        <item>浙大商贸</item>
+        <item>浙大体育</item>
+        <item>浙大校友</item>
+        <item>浙大邮箱</item>
+        <item>浙东学术研究</item>
+        <item>浙江大学"快威杯"校园生活服务创新创业大赛</item>
+        <item>浙江大学报</item>
+        <item>浙江大学国际设计研究院</item>
+        <item>浙江大学合作网 </item>
+        <item>浙江大学农业技术推广中心</item>
+        <item>浙江大学生命科学研究院</item>
+        <item>浙江大学台州研究院</item>
+        <item>浙江大学幼儿园</item>
+        <item>浙江大学舟山海洋研究中心</item>
+        <item>浙江大学馥莉食品研究院 </item>
+        <item>浙江加州国际纳米技术研究院 </item>
+        <item>浙江省服务机器人重点实验室</item>
+        <item>浙江省海外高层次人才浙江大学工作驿站</item>
+        <item>浙江省物理学会</item>
+        <item>浙江省细胞与基因重点研究实验室 </item>
+        <item>浙江省综合信息网技术重点实验室 </item>
+        <item>浙江卫生人才网 </item>
+        <item>浙江文献网 </item>
+        <item>知识建模与决策中的集成不确定性国际研讨会</item>
+        <item>智能交通研发中心 </item>
+        <item>智能科学与技术网上合作研究中心</item>
+        <item>智能人机系统与控制论</item>
+        <item>智能系统与控制研究所</item>
+        <item>中国大学数字博物馆IPV6门户</item>
+        <item>中国民主同盟浙江大学委员会</item>
+        <item>中国农村发展研究院 </item>
+        <item>中国物理学会2011年秋季学术会议</item>
+        <item>中国西部发展研究院 </item>
+        <item>中文文献库-基本检索 </item>
+        <item>重点建设项目信息管理系统 </item>
+        <item>973可燃固体废弃物能源化高效清洁利用机理研究</item>
+        <item>985农业生物与环境科技创新平台</item>
+    </string-array>
+    
+    <string-array name="url">
+        <item>http://bis.zju.edu.cn</item>
+        <item>http://yegroup.zju.edu.cn</item>
+        <item>http://zupo.zju.edu.cn</item>
+        <item>http://paoscholarship.zju.edu.cn</item>
+        <item>http://bmb.zju.edu.cn</item>
+        <item>http://zjucc.zju.edu.cn</item>
+        <item>http://bkpg.zju.edu.cn</item>
+        <item>http://innov.zju.edu.cn</item>
+        <item>http://ugrsinfo.zju.edu.cn</item>
+        <item>http://bksy.zju.edu.cn</item>
+        <item>http://zdzsc.zju.edu.cn</item>
+        <item>http://bgpt.zdzsc.zju.edu.cn</item>
+        <item>http://bkzyzx.zju.edu.cn</item>
+        <item>http://www.cad.zju.edu.cn</item>
+        <item>http://calis.zju.edu.cn</item>
+        <item>http://ccnt.zju.edu.cn</item>
+        <item>http://csp.zju.edu.cn</item>
+        <item>http://mse.zju.edu.cn</item>
+        <item>http://cwcx.zju.edu.cn</item>
+        <item>http://zupc.zju.edu.cn</item>
+        <item>http://vlsi.zju.edu.cn</item>
+        <item>http://www.press.zju.edu.cn</item>
+        <item>http://www.cmic.zju.edu.cn</item>
+        <item>http://eagle.zju.edu.cn</item>
+        <item>http://db.zju.edu.cn</item>
+        <item>http://www.cadal.zju.edu.cn</item>
+        <item>http://dwzzb.zju.edu.cn</item>
+        <item>http://zddx.zju.edu.cn</item>
+        <item>http://www.acv.zju.edu.cn</item>
+        <item>http://gs.zju.edu.cn</item>
+        <item>http://www.cce.zju.edu.cn</item>
+        <item>http://djxl.zju.edu.cn</item>
+        <item>http://eelab.zju.edu.cn</item>
+        <item>http://3e.zju.edu.cn</item>
+        <item>http://ee.zju.edu.cn</item>
+        <item>http://app1.sdc.zju.edu.cn</item>
+        <item>http://elife.zju.edu.cn</item>
+        <item>http://ec.zju.edu.cn</item>
+        <item>http://cem.zju.edu.cn</item>
+        <item>http://www.cas.zju.edu.cn</item>
+        <item>http://sms.zju.edu.cn</item>
+        <item>http://media.zju.edu.cn</item>
+        <item>http://fzgh.zju.edu.cn</item>
+        <item>http://zjudlo.zju.edu.cn</item>
+        <item>http://cres.zju.edu.cn</item>
+        <item>http://zjufzs.zju.edu.cn</item>
+        <item>http://www.nts.zju.edu.cn</item>
+        <item>http://udms.zju.edu.cn</item>
+        <item>http://rcai.zju.edu.cn</item>
+        <item>http://www.hmt.zju.edu.cn</item>
+        <item>http://polymer.zju.edu.cn</item>
+        <item>http://www.sms.zju.edu.cn</item>
+        <item>http://hpe.zju.edu.cn</item>
+        <item>http://person.zju.edu.cn</item>
+        <item>http://my.zju.edu.cn</item>
+        <item>http://zdgh.zju.edu.cn</item>
+        <item>http://www.fe.zju.edu.cn</item>
+        <item>http://www.itri.zju.edu.cn</item>
+        <item>http://www.itri.zju.edu.cn</item>
+        <item>http://www.cpa.zju.edu.cn</item>
+        <item>http://phs.zju.edu.cn</item>
+        <item>http://www.ggzc.zju.edu.cn</item>
+        <item>http://glgcxb.zju.edu.cn</item>
+        <item>http://www.som.zju.edu.cn</item>
+        <item>http://oefilm.zju.edu.cn</item>
+        <item>http://optlab.zju.edu.cn</item>
+        <item>http://opt.zju.edu.cn</item>
+        <item>http://www.ghls.zju.edu.cn</item>
+        <item>http://www.lawlib.zju.edu.cn</item>
+        <item>http://coer.zju.edu.cn </item>
+        <item>http://silab.zju.edu.cn</item>
+        <item>http://silicongroup.zju.edu.cn</item>
+        <item>http://www.gfs.zju.edu.cn</item>
+        <item>http://admission.zju.edu.cn</item>
+        <item>http://zjusp.zju.edu.cn</item>
+        <item>http://os.zju.edu.cn</item>
+        <item>http://www.gzb.zju.edu.cn</item>
+        <item>http://pse.zju.edu.cn</item>
+        <item>http://bbs.zju.edu.cn</item>
+        <item>http://dose.zju.edu.cn</item>
+        <item>http://www.hanyushi.zju.edu.cn</item>
+        <item>http://saa.zju.edu.cn</item>
+        <item>http://redcross.zju.edu.cn</item>
+        <item>http://hqglb.zju.edu.cn</item>
+        <item>http://zulg.zju.edu.cn</item>
+        <item>http://hqsms.zju.edu.cn</item>
+        <item>http://www.lab.zju.edu.cn</item>
+        <item>http://www.zdsd.zju.edu.cn</item>
+        <item>http://iche.zju.edu.cn</item>
+        <item>http://j-cret.zju.edu.cn</item>
+        <item>http://che.zju.edu.cn</item>
+        <item>http://sklpre.zju.edu.cn/</item>
+        <item>http://www.cregroup.zju.edu.cn</item>
+        <item>http://chelab.zju.edu.cn</item>
+        <item>http://chemcenter.zju.edu.cn</item>
+        <item>http://www.chem.zju.edu.cn</item>
+        <item>http://www.iest.zju.edu.cn</item>
+        <item>http://www.iee.zju.edu.cn</item>
+        <item>http://www.anammox.zju.edu.cn</item>
+        <item>http://www.cers.zju.edu.cn</item>
+        <item>http://ibi.zju.edu.cn</item>
+        <item>http://zimp.zju.edu.cn</item>
+        <item>http://multicore.zju.edu.cn</item>
+        <item>http://ipv6.zju.edu.cn</item>
+        <item>http://iradsn09.zju.edu.cn</item>
+        <item>http://jjb.zju.edu.cn</item>
+        <item>http://bmc.zju.edu.cn</item>
+        <item>http://www.bms.zju.edu.cn</item>
+        <item>http://zuir.zju.edu.cn</item>
+        <item>http://jgdw.zju.edu.cn</item>
+        <item>http://sklofp.zju.edu.cn</item>
+        <item>http://me.zju.edu.cn</item>
+        <item>http://www.ie.zju.edu.cn</item>
+        <item>http://www.mdi.zju.edu.cn</item>
+        <item>http://cw.zju.edu.cn</item>
+        <item>http://www.cs.zju.edu.cn</item>
+        <item>http://cspo.zju.edu.cn</item>
+        <item>http://www.ce.zju.edu.cn</item>
+        <item>http://sce.zju.edu.cn</item>
+        <item>http://peixun.zju.edu.cn</item>
+        <item>http://www.jwjc.zju.edu.cn</item>
+        <item>http://www.ccea.zju.edu.cn</item>
+        <item>http://www.ite.zju.edu.cn</item>
+        <item>http://zdjc.zju.edu.cn</item>
+        <item>http://kszx.zju.edu.cn</item>
+        <item>http://fdy.zju.edu.cn</item>
+        <item>http://www.zuef.zju.edu.cn</item>
+        <item>http://www.ced.zju.edu.cn</item>
+        <item>http://zues.zju.edu.cn</item>
+        <item>http://green.zju.edu.cn/</item>
+        <item>http://www.afr.zju.edu.cn</item>
+        <item>http://jpkc.zju.edu.cn</item>
+        <item>http://www.cec.zju.edu.cn</item>
+        <item>http://www.career.zju.edu.cn</item>
+        <item>http://ifts.zju.edu.cn</item>
+        <item>http://ocw.zju.edu.cn</item>
+        <item>http://www.rcstep.zju.edu.cn</item>
+        <item>http://rd.zju.edu.cn</item>
+        <item>http://rd.zju.edu.cn/djbg/index.php?c=Office</item>
+        <item>http://zjusts.zju.edu.cn</item>
+        <item>http://www.zise.zju.edu.cn</item>
+        <item>http://kggscw.zju.edu.cn</item>
+        <item>http://cse.zju.edu.cn</item>
+        <item>http://ckc.zju.edu.cn</item>
+        <item>http://lipid.zju.edu.cn</item>
+        <item>http://www.lepp.zju.edu.cn</item>
+        <item>http://www.ltx.zju.edu.cn</item>
+        <item>http://www.css.zju.edu.cn</item>
+        <item>http://www.merc.zju.edu.cn</item>
+        <item>http://mba.zju.edu.cn</item>
+        <item>http://www.nanophotonics.zju.edu.cn</item>
+        <item>http://www.doe.zju.edu.cn</item>
+        <item>http://www.eplab.zju.edu.cn</item>
+        <item>http://www.nit.zju.edu.cn</item>
+        <item>http://klep.zju.edu.cn</item>
+        <item>http://www.aes.zju.edu.cn</item>
+        <item>http://www.fale.zju.edu.cn</item>
+        <item>http://www.card.zju.edu.cn</item>
+        <item>http://www.cab.zju.edu.cn</item>
+        <item>http://pat.zju.edu.cn</item>
+        <item>http://percom.zju.edu.cn</item>
+        <item>http://embedded.zju.edu.cn</item>
+        <item>http://ypa.zju.edu.cn</item>
+        <item>http://www.qsc.zju.edu.cn</item>
+        <item>http://www.qaas.zju.edu.cn</item>
+        <item>http://www.hzqs.zju.edu.cn</item>
+        <item>http://www.news.zju.edu.cn</item>
+        <item>http://qsxy.zju.edu.cn</item>
+        <item>http://lantian.zju.edu.cn</item>
+        <item>http://www.hrsd.zju.edu.cn</item>
+        <item>http://www.ceu.zju.edu.cn</item>
+        <item>http://tr.zju.edu.cn</item>
+        <item>http://ehr.zju.edu.cn</item>
+        <item>http://rsc.zju.edu.cn</item>
+        <item>http://rwsk.zju.edu.cn</item>
+        <item>http://hsir.zju.edu.cn</item>
+        <item>http://fah.zju.edu.cn</item>
+        <item>http://www.ch.zju.edu.cn</item>
+        <item>http://www.cst.zju.edu.cn</item>
+        <item>http://www.isgt2012.zju.edu.cn</item>
+        <item>http://www.ssgeo.zju.edu.cn</item>
+        <item>http://www.gib.zju.edu.cn</item>
+        <item>http://rfne.zju.edu.cn</item>
+        <item>http://www.fss.zju.edu.cn</item>
+        <item>http://ssec.zju.edu.cn</item>
+        <item>http://sjb.zju.edu.cn</item>
+        <item>http://www.cls.zju.edu.cn</item>
+        <item>http://www.zjubiolab.zju.edu.cn</item>
+        <item>http://www.caefs.zju.edu.cn</item>
+        <item>http://www.cbeis.zju.edu.cn</item>
+        <item>http://bme.zju.edu.cn</item>
+        <item>http://www.lac.zju.edu.cn</item>
+        <item>http://sbc.zju.edu.cn</item>
+        <item>http://zudc.zju.edu.cn</item>
+        <item>http://www.math.zju.edu.cn</item>
+        <item>http://give.zju.edu.cn</item>
+        <item>http://www.dcd.zju.edu.cn</item>
+        <item>http://www.dmedia.zju.edu.cn</item>
+        <item>http://www.awsee.zju.edu.cn</item>
+        <item>http://sxzzll.zju.edu.cn</item>
+        <item>ttp://www.qzlake.zju.edu.cn</item>
+        <item>http://www.ibgs.zju.edu.cn</item>
+        <item>http://hbar.zju.edu.cn</item>
+        <item>http://xwb.zju.edu.cn</item>
+        <item>http://zuinfo.zju.edu.cn</item>
+        <item>http://tzb.zju.edu.cn</item>
+        <item>http://photo.zju.edu.cn</item>
+        <item>http://libweb.zju.edu.cn</item>
+        <item>http://cx.zju.edu.cn</item>
+        <item>http://zuas.zju.edu.cn</item>
+        <item>http://infolib.zju.edu.cn</item>
+        <item>http://ccealab.zju.edu.cn</item>
+        <item>http://www.youth.zju.edu.cn</item>
+        <item>http://www.sis.zju.edu.cn</item>
+        <item>http://www.ir.zju.edu.cn</item>
+        <item>http://netmedia.zju.edu.cn</item>
+        <item>http://microsat.zju.edu.cn</item>
+        <item>http://www.zjs.zju.edu.cn/</item>
+        <item>http://info.zju.edu.cn</item>
+        <item>http://zjuphylab.zju.edu.cn</item>
+        <item>http://physics.zju.edu.cn</item>
+        <item>http://www.moi-lab.zju.edu.cn</item>
+        <item>http://jwbinfosys.zju.edu.cn</item>
+        <item>http://jpck.zju.edu.cn</item>
+        <item>http://metc.zju.edu.cn/web/cn/index.jsp</item>
+        <item>http://agri.zju.edu.cn</item>
+        <item>http://gstu.zju.edu.cn</item>
+        <item>http://zdyy.zju.edu.cn</item>
+        <item>http://www.parttimes.zju.edu.cn</item>
+        <item>http://xywh.zju.edu.cn</item>
+        <item>http://ecard.zju.edu.cn</item>
+        <item>http://oa.zju.edu.cn</item>
+        <item>http://nceonline.zju.edu.cn</item>
+        <item>http://freshman.zju.edu.cn</item>
+        <item>http://rnpe.zju.edu.cn</item>
+        <item>http://www.xlzx.zju.edu.cn</item>
+        <item>http://www.psych.zju.edu.cn</item>
+        <item>http://dbxx.zju.edu.cn</item>
+        <item>http://zuits.zju.edu.cn</item>
+        <item>http://fit.zju.edu.cn</item>
+        <item>http://xd-edu.zju.edu.cn</item>
+        <item>http://www.isee.zju.edu.cn</item>
+        <item>http://www.iice.zju.edu.cn</item>
+        <item>http://zuits.zju.edu.cn/</item>
+        <item>http://www.xgb.zju.edu.cn</item>
+        <item>http://sss.zju.edu.cn</item>
+        <item>http://dormnet.zju.edu.cn</item>
+        <item>http://zuss.zju.edu.cn</item>
+        <item>http://www.journals.zju.edu.cn</item>
+        <item>http://xwlw.zju.edu.cn</item>
+        <item>http://zjuwiki.zju.edu.cn</item>
+        <item>http://istudy.zuss.zju.edu.cn</item>
+        <item>http://www.apcl.zju.edu.cn</item>
+        <item>http://ygb.zju.edu.cn</item>
+        <item>http://g.zju.edu.cn</item>
+        <item>http://kczx.zju.edu.cn</item>
+        <item>http://grs.zju.edu.cn</item>
+        <item>http://yjsds.zju.edu.cn</item>
+        <item>http://pharminfo.zju.edu.cn</item>
+        <item>http://www.cps.zju.edu.cn</item>
+        <item>http://www.cmm.zju.edu.cn</item>
+        <item>http://www.100.cmm.zju.edu.cn</item>
+        <item>http://www.zjgpe.zju.edu.cn</item>
+        <item>http://M-learning.zju.edu.cn</item>
+        <item>http://mic.zju.edu.cn</item>
+        <item>http://pathology.zju.edu.cn</item>
+        <item>http://ywyy.zju.edu.cn</item>
+        <item>http://doc.zju.edu.cn</item>
+        <item>http://www.ig.zju.edu.cn</item>
+        <item>http://zdys.zju.edu.cn</item>
+        <item>http://drinkingwater.zju.edu.cn</item>
+        <item>http://lc.zju.edu.cn</item>
+        <item>http://www.kggs.zju.edu.cn</item>
+        <item>http://phil.zju.edu.cn</item>
+        <item>http://www.qg.qsc.zju.edu.cn</item>
+        <item>http://zjub.zju.edu.cn</item>
+        <item>http://www.zdty.zju.edu.cn</item>
+        <item>http://zuaa.zju.edu.cn</item>
+        <item>http://zjuem.zju.edu.cn</item>
+        <item>http://www.zdxs.zju.edu.cn</item>
+        <item>http://changingworld.zju.edu.cn</item>
+        <item>http://www.zdxb.zju.edu.cn</item>
+        <item>http://www.idi.zju.edu.cn/</item>
+        <item>http://dfhz.zju.edu.cn</item>
+        <item>http://ntzx.zju.edu.cn</item>
+        <item>http://lsi.zju.edu.cn</item>
+        <item>http://rizt.zju.edu.cn</item>
+        <item>http://zdyey.zju.edu.cn</item>
+        <item>http://zoceanc.zju.edu.cn</item>
+        <item>http://fifs.zju.edu.cn</item>
+        <item>http://www.zcni.zju.edu.cn</item>
+        <item>http://robot.zju.edu.cn</item>
+        <item>http://rcyz.zju.edu.cn</item>
+        <item>http://zjps.zju.edu.cn</item>
+        <item>http://cgelab.zju.edu.cn</item>
+        <item>http://www.infonet.zju.edu.cn</item>
+        <item>http://zjwsrc.zju.edu.cn</item>
+        <item>http://zjwx.zju.edu.cn</item>
+        <item>http://iukm.zju.edu.cn</item>
+        <item>http://www.its.zju.edu.cn</item>
+        <item>http://ist.zju.edu.cn</item>
+        <item>http://ihmsc.zju.edu.cn</item>
+        <item>http://www.csc.zju.edu.cn</item>
+        <item>http://digitalmuseum.zju.edu.cn</item>
+        <item>http://mmzd.zju.edu.cn</item>
+        <item>http://www.ccfc.zju.edu.cn</item>
+        <item>http://cps2011.zju.edu.cn</item>
+        <item>http://www.cawd.zju.edu.cn</item>
+        <item>http://webpac.zju.edu.cn</item>
+        <item>http://zdjs.zju.edu.cn</item>
+        <item>http://wte973.zju.edu.cn</item>
+        <item>http://www.iaes.zju.edu.cn</item>
+    </string-array> 
+    
+</resources>

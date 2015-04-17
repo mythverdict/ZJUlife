@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#1E1E1E"
+    android:orientation="vertical" >
+    
+    <RelativeLayout
+        android:id="@+id/webRtLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:background="#85B935"
+        >
+    <com.zju.isee.zjulife.ClearEditText
+        android:id="@+id/filter_edit"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:background="#85B935"
+        android:layout_centerInParent="true"
+        android:drawableLeft="@drawable/search1"
+        android:hint="请输入关键字"
+        android:textColorHint="#ECF0FE"
+        android:textColor="#ECF0FE"
+        android:singleLine="true"
+        android:textSize="20sp" 
+        />
+     <ImageView 
+            android:layout_width="270dp"
+            android:layout_height="1dp"
+            android:background="#ECF0FE"
+            android:layout_below="@id/filter_edit"
+            android:layout_alignLeft="@id/filter_edit"
+            android:layout_marginLeft="30dp"
+            />    
+</RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <ListView
+            android:id="@+id/website"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:divider="@null" />
+
+        <TextView
+            android:id="@+id/dialog"
+            android:layout_width="80.0dip"
+            android:layout_height="80.0dip"
+            android:layout_gravity="center"
+            android:background="@drawable/show_head_toast_bg"
+            android:gravity="center"
+            android:textColor="#ECF0FE"
+            android:textSize="30.0dip"
+            android:visibility="invisible" />
+
+        <com.zju.isee.zjulife.SideBar
+            android:id="@+id/sidrbar"
+            android:layout_width="30.0dip"
+            android:layout_height="fill_parent"
+            android:layout_gravity="right|center" />
+    </FrameLayout>
+
+</LinearLayout>

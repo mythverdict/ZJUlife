@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#1E1E1E"
+    android:orientation="vertical"
+     >
+
+    <RelativeLayout
+        android:id="@+id/rtLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:background="#85B935"
+        >
+<!--         <ImageButton 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/returnback"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="2dp"
+            android:clickable="true"
+            android:onClick="BackToMain"
+            />
+             -->
+        <TextView 
+        android:id="@+id/appNameTrans1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:text="就医事项"
+		android:textColor="#ECF0F1"     
+		android:textSize="32sp"  
+		android:layout_centerVertical="true"
+		android:paddingLeft="2dp"
+        />
+        
+    </RelativeLayout>
+<WebView  
+    android:id="@+id/hospitalWebview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+/>
+</LinearLayout>

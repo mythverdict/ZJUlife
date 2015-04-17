@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<!-- 
+        <RelativeLayout
+        android:id="@+id/rtLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:background="#85B935"
+        >
+       
+        <EditText
+            android:id="@+id/searchTheMapText"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:background="#85B935"
+            android:textColor="#ECF0FE"
+            android:layout_centerInParent="true"
+            />
+        
+        <ImageView 
+            android:id="@+id/searchTheMap"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_toRightOf="@id/searchTheMapText"
+            android:src="@drawable/search"
+            android:layout_centerVertical="true"
+            />
+        <ImageView 
+            android:layout_width="250dp"
+            android:layout_height="1dp"
+            android:background="#ECF0FE"
+            android:layout_below="@id/searchTheMapText"
+            android:layout_alignLeft="@id/searchTheMapText"
+            />
+        
+        </RelativeLayout>
+     -->
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >    
+        
+
+    <com.baidu.mapapi.map.MapView
+        android:id="@+id/id_bmapView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:clickable="true" />
+
+    <Button 
+        android:id="@+id/zijingang"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="紫金港"
+        android:background="@android:color/transparent"
+        
+        android:layout_marginLeft="20dp"
+        />
+    <Button 
+        android:id="@+id/yuquan"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="玉  泉"
+        android:layout_toRightOf="@id/zijingang"
+        android:paddingLeft="10dp"
+        android:background="@android:color/transparent"
+        />
+    <ImageView 
+        android:id="@+id/traffic"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/traffic_disable"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="5dp"
+        android:clickable="true"
+        android:background="@drawable/imagebutton_background"
+        />
+    
+    <ImageView 
+        android:id="@+id/navi_gps"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/normal"
+        android:layout_below="@id/traffic"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="5dp"
+        android:clickable="true"
+        android:background="@drawable/imagebutton_background"
+        />    
+        
+    <ImageView 
+        android:id="@+id/maplayers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/layer_switch_off"
+        android:layout_below="@id/navi_gps"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="5dp"
+        android:clickable="true"
+        />     
+
+    
+    <LinearLayout
+        android:id="@+id/id_maker_ly"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#cc4e5a6b"
+        android:clickable="true"
+        android:visibility="gone"
+        android:orientation="vertical"
+        >
+        
+        <ImageView
+            android:id="@+id/id_info_img"
+            android:layout_width="fill_parent"
+            android:layout_height="150dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/img_border"
+            android:scaleType="fitXY"
+            android:src="@drawable/a01" >
+        </ImageView>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/bg_map_bottom" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:orientation="vertical"
+                 >
+
+                <TextView
+                    android:id="@+id/id_info_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="老米家泡馍"
+                    android:textColor="#f27b04" />
+
+                <TextView
+                    android:id="@+id/id_info_distance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="距离200米"
+                    android:textColor="#ecf0f1" />
+            </LinearLayout>
+<!-- 
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/map_zan"
+                    android:clickable="true" />
+
+                <TextView
+                    android:id="@+id/id_info_zan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="789"
+                    android:textColor="#fff5eb" />
+            </LinearLayout>
+             -->
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>
+</LinearLayout>

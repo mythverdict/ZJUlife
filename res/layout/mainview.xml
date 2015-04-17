@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#1E1E1E"
+    android:orientation="vertical"
+    tools:context="com.zju.isee.zjulife.MainActivity" >
+
+    <RelativeLayout
+        android:id="@+id/rtLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:background="#85B935"      
+        >
+        <TextView 
+        android:id="@+id/appNameTrans1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:text="@string/appName"
+		android:textColor="#ECF0F1"     
+		android:textSize="40sp"
+		android:layout_centerVertical="true"
+		android:paddingLeft="10dp"
+        />
+		<ImageView
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_centerVertical="true"
+		    android:src="@drawable/search"
+		    android:background="#85B935"
+		    android:layout_alignParentRight="true"
+		    android:layout_marginRight="12dp"
+		    android:clickable="true"
+		    android:onClick="searchAll"
+		    />
+    </RelativeLayout>
+	<RelativeLayout
+	    android:id="@+id/rtLayout2"
+	    android:layout_width="fill_parent"
+	    android:layout_height="30dp"
+	    android:background="#1E1E1E"
+	    >
+	    <TextView
+	        android:id="@+id/TAG1_Trans1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_centerVertical="true"
+	        android:paddingLeft="14dp"
+	        android:text="@string/appTAG1"
+	        android:textSize="20sp"
+	        />
+	     <TextView
+	        android:id="@+id/TAG2_Trans1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_toRightOf="@id/TAG1_Trans1"
+	        android:layout_centerVertical="true"
+	        android:paddingLeft="14dp"
+	        android:text="@string/appTAG2"
+	        android:textSize="20sp"
+	        android:textColor="#7BF204"
+	        />
+	    </RelativeLayout>
+  	    <LinearLayout 
+	        android:id="@+id/fragment_switch"
+	        android:layout_height="wrap_content" 
+        	android:layout_marginTop="0dp" 
+        	android:layout_width="wrap_content" 
+        	android:orientation="horizontal"
+	        >
+	     </LinearLayout>
+</LinearLayout>

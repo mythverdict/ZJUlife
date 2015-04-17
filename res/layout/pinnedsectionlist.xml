@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context="com.zju.isee.zjulife.MainActivity" >
+    <RelativeLayout
+        android:id="@+id/rtLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:background="#85B935"
+        >
+        <TextView
+        android:id="@+id/appNameTrans1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:text="查找结果"
+		android:textColor="#ECF0F1"     
+		android:textSize="40sp"  
+		android:layout_centerVertical="true"
+		android:paddingLeft="10dp"
+        />
+    </RelativeLayout>
+<com.zju.isee.zjulife.PinnedSectionListView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/list"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+	android:layout_marginTop="20dp"
+    android:background="#FF1E1E1E"
+    android:headerDividersEnabled="false"
+    android:footerDividersEnabled="false"
+    />
+
+</LinearLayout>
